@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>MChair release notes</title>
-<meta name="description" content="What is new in each version of MChair, the free appointment diary for mobile hairdressers, with the download and its checksum.">
+<meta name="description" content="What changed in each version of MChair, with the file size and checksum to check your download.">
 <meta name="author" content="Jonathan Jackson">
 <link rel="canonical" href="https://customgpter.github.io/mchair/releases.html">
 <meta name="theme-color" content="#f4efe9" media="(prefers-color-scheme: light)">
@@ -12,62 +12,68 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="MChair">
 <meta property="og:title" content="MChair release notes">
-<meta property="og:description" content="What is new in each version of MChair, the free appointment diary for mobile hairdressers, with the download and its checksum.">
+<meta property="og:description" content="What changed in each version of MChair, with the file size and checksum to check your download.">
 <meta property="og:url" content="https://customgpter.github.io/mchair/releases.html">
 <meta property="og:image" content="https://customgpter.github.io/mchair/assets/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="The MChair icon and name beside its diary and client screens">
+<meta property="og:image:alt" content="MChair&#x27;s day view with visits out and clients at home">
 <meta property="og:locale" content="en_GB">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-<link rel="preload" href="assets/fonts/newsreader-500.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="assets/fonts/dmsans-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/site.css?v=1">
+<link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
+<link rel="preload" href="./assets/fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./assets/fonts/atkinson-hyperlegible-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="./assets/site.css?v=1">
+<link rel="stylesheet" href="./assets/house.css?v=1">
+<link rel="stylesheet" href="./assets/apps-list.css?v=1">
+<script src="./assets/apps-list.js?v=1" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="masthead">
 <div class="wrap">
 <a class="brand" href="./" aria-label="MChair home"><svg viewBox="0 0 108 108" aria-hidden="true"><rect width="108" height="108" rx="24" fill="#EBDCE8"/><g transform="translate(54 54) scale(1.25) translate(-54 -52)"><path fill="#5E2F55" fill-rule="evenodd" d="M37 70.5a7.5 7.5 0 1 0 15 0a7.5 7.5 0 1 0-15 0zM40 70.5a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0-9 0zM56 70.5a7.5 7.5 0 1 0 15 0a7.5 7.5 0 1 0-15 0zM59 70.5a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0-9 0z"/><path fill="#5E2F55" d="M45.2 63.6 49.6 62.2 67.4 25.6 63.6 27.2zM62.8 63.6 58.4 62.2 40.6 25.6 44.4 27.2z"/><circle cx="54" cy="49.8" r="1.8" fill="#EBDCE8"/></g></svg><span>MChair</span></a>
-<nav aria-label="Main"><ul><li><a href="./#features">Features</a></li><li><a href="compare.html">Compare</a></li><li><a href="releases.html" aria-current="page">Releases</a></li><li><a class="more-apps" href="more-apps.html"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.6"/></svg>More apps</a></li><li><a href="privacy.html">Privacy</a></li><li><a href="terms.html">Terms</a></li><li><a href="licences.html">Licences</a></li></ul></nav>
+<nav aria-label="Main"><ul><li><a href="./#features">Features</a></li><li><a href="./compare.html">Compare</a></li><li><a href="./releases.html" aria-current="page">Releases</a></li><li><a class="more-apps" href="./more-apps.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.6"/></svg>More apps</a></li></ul></nav>
+<a class="button small" href="https://github.com/CustomGPTer/mchair/releases/latest/download/MChair.apk"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11"/><path d="M7 10.5l5 5 5-5"/><path d="M5 20h14"/></svg>Download</a>
 </div>
 </header>
 <main id="main" class="doc">
-<div class="wrap"><div class="measure">
+<div class="wrap">
+<div class="measure">
 <h1>Release notes</h1>
-<p class="lede">What was added, improved and fixed in each version of MChair, newest first. The current version is 1.0.</p>
-<p class="get"><a class="button" href="https://github.com/CustomGPTer/mchair/releases/latest/download/MChair.apk"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Download the latest version</a></p>
-<p class="note">Version 1.0. Android app file, 2.5 MB. Android 8 or later. Free.</p>
-<p class="note">Chrome may say the file might be harmful. It shows this for app files that do not come from Google Play. Choose Download anyway, open the file, and allow your browser to install apps if Android asks. To be sure of the file, see <a href="#checking">Checking your download</a>.</p>
-<div class="release">
-<p><span class="badge">Latest</span>Released 21 November 2026</p>
-<h2>Version 1.0: first release</h2>
-<h3>Added</h3>
-<ul><li>One diary for one hairdresser, with every booking at the client&#x27;s home, at your home or at a venue, each in its own colour.</li><li>Travel linked up across the day: from home to the first visit, from visit to visit, and home after the last, blocked out in the diary and counted in clash checks.</li><li>Client cards with address, minutes from home and miles. Journeys between two clients remembered once set, and marked as a guess until then. Any journey can be changed on the booking.</li><li>Working days set as out, at home or both, with one-off changes. Free times and the next free slot only offer what fits.</li><li>Processing time free for another client at home, and kept with the client on a visit.</li><li>Venues such as care homes and weddings, remembered, with no travel between bookings at the same place.</li><li>The day&#x27;s route: every stop in order with the drive between, opened in Google Maps from home and back, and a text of your day for someone you trust.</li><li>Call-out fees added to visits, changeable on any booking, and shown in takings.</li><li>Mileage for any period with the claim at HMRC&#x27;s simplified rates (55p then 25p a mile from April 2026), in the Takings tab, the PDF report and the spreadsheets.</li><li>Two reminder wordings: one for visits, and one for clients coming to you with your address and parking note.</li><li>A starter menu with weddings, bridal trials, care home and older clients&#x27; services added.</li><li>Everything from Chair: day, week and list views, drag and stretch, time off and UK bank holidays, reminders, client records, colour formulas, skin tests, photos, repeat bookings, the waiting list, takings and reports, widgets, the phone calendar copy, imports, data protection tools, backups and the app lock.</li><li>Chair backups open in MChair, with everyone&#x27;s bookings in the one diary and home visits kept as visits out.</li></ul>
-</div>
+<p class="lede">What changed in each version of MChair. The newest is at the top.</p>
+<section class="release" id="v1.0.0"><h2><span class="ver">Version 1.0.0</span> <span class="when">21 November 2026</span><span class="tag">Latest</span></h2><ul><li><b>First release.</b> One diary for one hairdresser, with every booking at the client&#x27;s home, at your home or at a venue, each in its own colour.</li><li>Travel linked up across the day: from home to the first visit, from visit to visit, and home after the last, blocked out in the diary and counted in clash checks.</li><li>Client cards with address, minutes from home and miles. Journeys between two clients remembered once set, and marked as a guess until then. Any journey can be changed on the booking.</li><li>Working days set as out, at home or both, with one-off changes. Free times and the next free slot only offer what fits.</li><li>Processing time free for another client at home, and kept with the client on a visit.</li><li>Venues such as care homes and weddings, remembered, with no travel between bookings at the same place.</li><li>The day&#x27;s route: every stop in order with the drive between, opened in Google Maps from home and back, and a text of your day for someone you trust.</li><li>Call-out fees added to visits, changeable on any booking, and shown in takings.</li><li>Mileage for any period with the claim at HMRC&#x27;s simplified rates (55p then 25p a mile from April 2026), in the Takings tab, the PDF report and the spreadsheets.</li><li>Two reminder wordings: one for visits, and one for clients coming to you with your address and parking note.</li><li>A starter menu with weddings, bridal trials, care home and older clients&#x27; services added.</li><li>Everything from Chair: day, week and list views, drag and stretch, time off and UK bank holidays, reminders, client records, colour formulas, skin tests, photos, repeat bookings, the waiting list, takings and reports, widgets, the phone calendar copy, imports, data protection tools, backups and the app lock.</li><li>Chair backups open in MChair, with everyone&#x27;s bookings in the one diary and home visits kept as visits out.</li></ul></section>
 <h2 id="checking">Checking your download</h2>
-<p>Every version is signed with the same key, so an update installs over the last one and keeps your diary. Android refuses an update signed by anyone else.</p>
-<p>If you want to check the file itself, its SHA-256 checksum is:</p>
-<p><code>0f50b0c294a407acee0b2280f3155127ea09235e9855a445c083874144a560e0</code></p>
-<p>Older versions, if any, are on the <a href="https://github.com/CustomGPTer/mchair/releases">releases page on GitHub</a>.</p>
-</div></div>
+<p>The file for version 1.0.0 is called <code>MChair.apk</code>. It is 2.5 MB (2,569,562 bytes). Its SHA-256 checksum is:</p>
+<p><code class="sum">0f50b0c294a407acee0b2280f3155127ea09235e9855a445c083874144a560e0</code></p>
+<p>On Windows, run <code>certutil -hashfile MChair.apk SHA256</code> and compare. Every version is signed with the same key, so each one installs over the last and keeps what you have saved.</p>
+<p>Older versions are on the <a href="https://github.com/CustomGPTer/mchair/releases">GitHub releases page</a>.</p>
+</div>
+</div>
 </main>
 <footer class="colophon">
 <div class="wrap">
 <div>
+<a class="brand" href="./" aria-label="MChair home"><svg viewBox="0 0 108 108" aria-hidden="true"><rect width="108" height="108" rx="24" fill="#EBDCE8"/><g transform="translate(54 54) scale(1.25) translate(-54 -52)"><path fill="#5E2F55" fill-rule="evenodd" d="M37 70.5a7.5 7.5 0 1 0 15 0a7.5 7.5 0 1 0-15 0zM40 70.5a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0-9 0zM56 70.5a7.5 7.5 0 1 0 15 0a7.5 7.5 0 1 0-15 0zM59 70.5a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0-9 0z"/><path fill="#5E2F55" d="M45.2 63.6 49.6 62.2 67.4 25.6 63.6 27.2zM62.8 63.6 58.4 62.2 40.6 25.6 44.4 27.2z"/><circle cx="54" cy="49.8" r="1.8" fill="#EBDCE8"/></g></svg><span>MChair</span></a>
 <p>&copy; 2026 Jonathan Jackson. MChair is an independent app.</p>
-<p>This site uses no cookies and no tracking. It is set in Newsreader and DM Sans.</p>
+<p>This site uses no cookies and no tracking.</p>
+<p>Set in Bricolage Grotesque and Atkinson Hyperlegible.</p>
 </div>
-<nav aria-label="Footer"><ul>
+<nav aria-label="The app"><h2>The app</h2><ul>
 <li><a href="./">Home</a></li>
-<li><a href="compare.html">Compare</a></li>
-<li><a href="releases.html">Release notes</a></li>
-<li><a href="more-apps.html">More apps</a></li>
-<li><a href="privacy.html">Privacy policy</a></li>
-<li><a href="terms.html">Terms of use</a></li>
-<li><a href="licences.html">Licences</a></li>
+<li><a href="./compare.html">Compare</a></li>
+<li><a href="./releases.html">Release notes</a></li>
+
+</ul></nav>
+<nav aria-label="Legal"><h2>Legal</h2><ul>
+<li><a href="./privacy.html">Privacy policy</a></li>
+<li><a href="./terms.html">Terms of use</a></li>
+<li><a href="./licences.html">Licences</a></li>
+</ul></nav>
+<nav aria-label="More"><h2>More</h2><ul>
+<li><a href="./more-apps.html">More apps</a></li>
+<li><a href="https://customgpter.github.io/">All apps</a></li>
 <li><a href="https://github.com/CustomGPTer/mchair/issues">Contact</a></li>
 </ul></nav>
 </div>
